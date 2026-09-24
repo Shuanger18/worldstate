@@ -109,8 +109,6 @@ window.WorldStateVideoLoops = {
       const ready = members.every(video => {
         if (video.readyState < 3 || video.seeking) return false;
         if (group.playing || group.starting) return true;
-        // Refill before resuming; a single decoded frame is not a useful buffer
-        // for five parallel streams, especially at double speed.
         const runway = Math.min(0.8 * video.defaultPlaybackRate, video.duration - video.currentTime);
         for (let i = 0; i < video.buffered.length; i++) {
           if (video.buffered.start(i) <= video.currentTime + 0.05 &&
@@ -206,7 +204,7 @@ window.WorldStateVideoLoops = {
       selected = next;
       previous.forEach(group => { if (!next.has(group)) show(group, false); });
       next.forEach(group => { if (!previous.has(group)) show(group, true); });
-      loader.prioritize([...new Set([...next, ...candidates.map(item => item.group)])].flatMap(group => group.videos));
+      loader.prioritize([...next].flatMap(group => group.videos));
     };
     let frame = 0;
     const schedule = () => {

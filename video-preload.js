@@ -5,6 +5,7 @@ window.WorldStatePreload = class {
     this.items = new Map();
     this.running = 0;
     this.order = [];
+    this.priority = new Set();
     this.memory = new Map();
     this.db = new Promise(resolve => {
       try {
@@ -51,7 +52,16 @@ window.WorldStatePreload = class {
   }
   prioritize(videos) {
     const first = videos.map(video => video.preloadItem);
+    this.priority = new Set(first);
     this.order = [...new Set([...first, ...this.order])];
+    // Free network slots immediately when the selected rows change.
+    if (first.some(item => item.state === 'queued' || item.state === 'loading')) {
+      this.items.forEach(item => {
+        if (item.state === 'loading' && !this.priority.has(item)) {
+          item.controller?.abort('selection-changed');
+        }
+      });
+    }
     this.pump();
   }
   retry(videos) {
@@ -59,12 +69,14 @@ window.WorldStatePreload = class {
       const item = video.preloadItem;
       if (item.state === 'error') item.state = 'queued';
     });
-    this.prioritize(videos);
+    // The row controller calls choose() next, prioritizing both selected rows.
   }
   pump() {
     if (document.hidden) return;
     while (this.running < 2) {
-      const item = this.order.find(candidate => candidate.state === 'queued');
+      const selectedPending = [...this.priority].some(item => item.state === 'queued' || item.state === 'loading');
+      const item = this.order.find(candidate => candidate.state === 'queued' &&
+        (!selectedPending || this.priority.has(candidate)));
       if (!item) break;
       item.state = 'loading';
       this.running++;
@@ -77,10 +89,12 @@ window.WorldStatePreload = class {
     }
   }
   async download(item) {
+    const controller = new AbortController();
+    item.controller = controller;
     try {
       let blob = await this.read(item);
       if (!blob) {
-        const controller = new AbortController();
+        controller.signal.throwIfAborted();
         const timeout = setTimeout(() => controller.abort(), 120000);
         try {
           const response = await fetch(item.url, {signal: controller.signal, cache: 'force-cache'});
@@ -96,7 +110,10 @@ window.WorldStatePreload = class {
       }
       item.state = 'ready';
     } catch {
-      item.state = 'error';
+      // Switching rows is intentional cancellation, not a failed download.
+      item.state = controller.signal.reason === 'selection-changed' ? 'queued' : 'error';
+    } finally {
+      item.controller = null;
     }
   }
   async attach(video, allowed) {

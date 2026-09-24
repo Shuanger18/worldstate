@@ -351,38 +351,6 @@ window.WORLDSTATE = {
       "duration": 32.937012
     },
     {
-      "id": "canyon-stream-k",
-      "title": "Canyon · 35s",
-      "prompt": "A rushing clear stream through a narrow orange sandstone canyon, a large natural boulder lodged between the rock walls, swirling water and reflected warm sunlight. Move diagonally forward-left while gradually looking fifty degrees left of the initial forward direction. Hold both position and orientation still for one second. Then travel diagonally forward-right across the scene while smoothly sweeping the view from fifty degrees left to fifty degrees right, passing the forward orientation without stopping. Hold both position and orientation for one second. Finally move backward along a direct path to the starting position while returning to the original forward orientation. Clear translational parallax, level horizon, no repeated scanning, no cuts, coherent scene geometry.",
-      "videos": {
-        "firstvisit": {
-          "image": "assets/first-visit/canyon-stream-k.png"
-        },
-        "gen3c": {
-          "src": "assets/comparison-previews-trim2/row-06-gen3c.mp4",
-          "poster": "assets/comparison-previews-trim2/row-06-gen3c.jpg"
-        },
-        "spatia": {
-          "src": "assets/comparison-previews-trim2/row-06-spatia.mp4",
-          "poster": "assets/comparison-previews-trim2/row-06-spatia.jpg"
-        },
-        "mxg3": {
-          "src": "assets/comparison-previews-trim2/row-06-mxg3.mp4",
-          "poster": "assets/comparison-previews-trim2/row-06-mxg3.jpg"
-        },
-        "sanawm": {
-          "src": "assets/comparison-previews-trim2/row-06-model-04.mp4",
-          "poster": "assets/comparison-previews-trim2/row-06-model-04.jpg"
-        },
-        "worldstate": {
-          "src": "assets/comparison-previews-trim2/row-06-worldstate.mp4",
-          "poster": "assets/comparison-previews-trim2/row-06-worldstate.jpg"
-        }
-      },
-      "group": "Dynamic-Scene Exploration",
-      "duration": 34.937012
-    },
-    {
       "id": "seaside-c",
       "title": "Seaside · 29s",
       "prompt": "A sandy coastline curving beneath rocky headlands, blue-green breaking waves, scattered wet shore rocks, coastal grasses and warm afternoon sunlight. Move backward, then advance past the starting point. Glance left thirty degrees during retreat and right thirty degrees near the forward destination. Hold completely still for one second, then return to the starting position and viewing direction. Keep a level horizon, smooth starts and stops, stable scene geometry, and one continuous shot.",
@@ -590,10 +558,10 @@ window.WORLDSTATE = {
       "prompt": ""
     },
     {
-      "id": "generation-slot-12",
-      "title": "World generation placeholder",
-      "src": "",
-      "poster": "",
+      "id": "villa-courtyard-360",
+      "title": "Villa Courtyard",
+      "src": "assets/world-generation/villa-courtyard-360.mp4",
+      "poster": "assets/world-generation/villa-courtyard-360.jpg",
       "prompt": ""
     },
     {
