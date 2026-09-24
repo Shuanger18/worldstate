@@ -37,16 +37,16 @@ window.WORLDSTATE = {
   ],
   "comparisonModels": [
     {
+      "id": "firstvisit",
+      "name": "First Visit"
+    },
+    {
       "id": "gen3c",
       "name": "Gen3C"
     },
     {
       "id": "spatia",
       "name": "Spatia"
-    },
-    {
-      "id": "ifw",
-      "name": "Infinite-World"
     },
     {
       "id": "mxg3",
@@ -65,8 +65,11 @@ window.WORLDSTATE = {
     {
       "id": "outdoor_09-a",
       "title": "Outdoor 09",
-      "playbackRate": 1,
+      "prompt": "",
       "videos": {
+        "firstvisit": {
+          "image": "assets/first-visit/outdoor_09-a.png"
+        },
         "gen3c": {
           "src": "assets/comparison-previews-lite/row-01-gen3c.mp4",
           "poster": "assets/videos/comparisons-20260922-top/outdoor_09-a-gen3c.jpg"
@@ -75,448 +78,584 @@ window.WORLDSTATE = {
           "src": "assets/comparison-previews-lite/row-01-spatia.mp4",
           "poster": "assets/videos/comparisons-20260922-top/outdoor_09-a-spatia.jpg"
         },
-        "ifw": {},
         "mxg3": {
           "src": "assets/comparison-previews-lite/row-01-mxg3.mp4",
           "poster": "assets/videos/comparisons-20260922-top/outdoor_09-a-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-lite/row-01-sanawm.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/outdoor_09-a-sanawm.jpg"
+          "src": "assets/comparison-previews-lite/row-01-model-04.mp4",
+          "poster": "assets/videos/comparisons-20260922-top/outdoor_09-a-model-04.jpg"
         },
         "worldstate": {
           "src": "assets/comparison-previews-lite/row-01-worldstate.mp4",
           "poster": "assets/videos/comparisons-20260922-top/outdoor_09-a-worldstate.jpg"
         }
-      }
+      },
+      "group": "Static-Scene Exploration",
+      "duration": 22.0625
     },
     {
       "id": "indoor_01-c",
       "title": "Indoor 01",
-      "playbackRate": 2,
+      "prompt": "",
       "videos": {
+        "firstvisit": {
+          "image": "assets/first-visit/indoor_01-c.png"
+        },
         "gen3c": {
-          "src": "assets/comparison-previews-lite/row-02-gen3c.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_01-c-gen3c.jpg"
+          "src": "assets/presentation-v1/clip-001.mp4",
+          "poster": "assets/presentation-v1/clip-001.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-lite/row-02-spatia.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_01-c-spatia.jpg"
+          "src": "assets/presentation-v1/clip-002.mp4",
+          "poster": "assets/presentation-v1/clip-002.jpg"
         },
-        "ifw": {},
         "mxg3": {
-          "src": "assets/comparison-previews-lite/row-02-mxg3.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_01-c-mxg3.jpg"
+          "src": "assets/presentation-v1/clip-003.mp4",
+          "poster": "assets/presentation-v1/clip-003.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-lite/row-02-sanawm.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_01-c-sanawm.jpg"
+          "src": "assets/presentation-v1/clip-004.mp4",
+          "poster": "assets/presentation-v1/clip-004.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-lite/row-02-worldstate.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_01-c-worldstate.jpg"
+          "src": "assets/presentation-v1/clip-005.mp4",
+          "poster": "assets/presentation-v1/clip-005.jpg"
         }
-      }
+      },
+      "group": "Static-Scene Exploration",
+      "duration": 14.468506
     },
     {
       "id": "indoor_02-g",
       "title": "Indoor 02",
-      "playbackRate": 2,
+      "prompt": "",
       "videos": {
+        "firstvisit": {
+          "image": "assets/first-visit/indoor_02-g.png"
+        },
         "gen3c": {
-          "src": "assets/comparison-previews-lite/row-03-gen3c.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_02-g-gen3c.jpg"
+          "src": "assets/presentation-v1/clip-006.mp4",
+          "poster": "assets/presentation-v1/clip-006.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-lite/row-03-spatia.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_02-g-spatia.jpg"
-        },
-        "ifw": {},
-        "mxg3": {
-          "src": "assets/comparison-previews-lite/row-03-mxg3.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_02-g-mxg3.jpg"
-        },
-        "sanawm": {
-          "src": "assets/comparison-previews-lite/row-03-sanawm.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_02-g-sanawm.jpg"
-        },
-        "worldstate": {
-          "src": "assets/comparison-previews-lite/row-03-worldstate.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_02-g-worldstate.jpg"
-        }
-      }
-    },
-    {
-      "id": "indoor_14-j",
-      "title": "Indoor 14",
-      "playbackRate": 1,
-      "videos": {
-        "gen3c": {
-          "src": "assets/comparison-previews-lite/row-04-gen3c.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_14-j-gen3c.jpg"
-        },
-        "spatia": {
-          "src": "assets/comparison-previews-lite/row-04-spatia.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_14-j-spatia.jpg"
-        },
-        "ifw": {},
-        "mxg3": {
-          "src": "assets/comparison-previews-lite/row-04-mxg3.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_14-j-mxg3.jpg"
-        },
-        "sanawm": {
-          "src": "assets/comparison-previews-lite/row-04-sanawm.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_14-j-sanawm.jpg"
-        },
-        "worldstate": {
-          "src": "assets/comparison-previews-lite/row-04-worldstate.mp4",
-          "poster": "assets/videos/comparisons-20260922-top/indoor_14-j-worldstate.jpg"
-        }
-      }
-    },
-    {
-      "id": "glacial-lake-j",
-      "title": "Glacial Lake · 33s",
-      "videos": {
-        "gen3c": {
-          "src": "assets/comparison-previews-lite/row-05-gen3c.mp4",
-          "poster": "assets/videos/comparisons-20260922/glacial-lake-j-gen3c.jpg"
-        },
-        "spatia": {
-          "src": "assets/comparison-previews-lite/row-05-spatia.mp4",
-          "poster": "assets/videos/comparisons-20260922/glacial-lake-j-spatia.jpg"
-        },
-        "ifw": {
-          "src": "",
-          "poster": ""
+          "src": "assets/presentation-v1/clip-007.mp4",
+          "poster": "assets/presentation-v1/clip-007.jpg"
         },
         "mxg3": {
-          "src": "assets/comparison-previews-lite/row-05-mxg3.mp4",
-          "poster": "assets/videos/comparisons-20260922/glacial-lake-j-mxg3.jpg"
+          "src": "assets/presentation-v1/clip-008.mp4",
+          "poster": "assets/presentation-v1/clip-008.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-lite/row-05-sanawm.mp4",
-          "poster": "assets/videos/comparisons-20260922/glacial-lake-j-sanawm.jpg"
+          "src": "assets/presentation-v1/clip-009.mp4",
+          "poster": "assets/presentation-v1/clip-009.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-lite/row-05-worldstate.mp4",
-          "poster": "assets/videos/comparisons-20260922/glacial-lake-j-worldstate.jpg"
+          "src": "assets/presentation-v1/clip-010.mp4",
+          "poster": "assets/presentation-v1/clip-010.jpg"
         }
-      }
-    },
-    {
-      "id": "canyon-stream-k",
-      "title": "Canyon · 35s",
-      "videos": {
-        "gen3c": {
-          "src": "assets/comparison-previews-lite/row-06-gen3c.mp4",
-          "poster": "assets/videos/comparisons-20260922/canyon-stream-k-gen3c.jpg"
-        },
-        "spatia": {
-          "src": "assets/comparison-previews-lite/row-06-spatia.mp4",
-          "poster": "assets/videos/comparisons-20260922/canyon-stream-k-spatia.jpg"
-        },
-        "ifw": {
-          "src": "",
-          "poster": ""
-        },
-        "mxg3": {
-          "src": "assets/comparison-previews-lite/row-06-mxg3.mp4",
-          "poster": "assets/videos/comparisons-20260922/canyon-stream-k-mxg3.jpg"
-        },
-        "sanawm": {
-          "src": "assets/comparison-previews-lite/row-06-sanawm.mp4",
-          "poster": "assets/videos/comparisons-20260922/canyon-stream-k-sanawm.jpg"
-        },
-        "worldstate": {
-          "src": "assets/comparison-previews-lite/row-06-worldstate.mp4",
-          "poster": "assets/videos/comparisons-20260922/canyon-stream-k-worldstate.jpg"
-        }
-      }
-    },
-    {
-      "id": "seaside-c",
-      "title": "Seaside · 29s",
-      "videos": {
-        "gen3c": {
-          "src": "assets/comparison-previews-lite/row-07-gen3c.mp4",
-          "poster": "assets/videos/comparisons-20260922/seaside-c-gen3c.jpg"
-        },
-        "spatia": {
-          "src": "assets/comparison-previews-lite/row-07-spatia.mp4",
-          "poster": "assets/videos/comparisons-20260922/seaside-c-spatia.jpg"
-        },
-        "ifw": {
-          "src": "",
-          "poster": ""
-        },
-        "mxg3": {
-          "src": "assets/comparison-previews-lite/row-07-mxg3.mp4",
-          "poster": "assets/videos/comparisons-20260922/seaside-c-mxg3.jpg"
-        },
-        "sanawm": {
-          "src": "assets/comparison-previews-lite/row-07-sanawm.mp4",
-          "poster": "assets/videos/comparisons-20260922/seaside-c-sanawm.jpg"
-        },
-        "worldstate": {
-          "src": "assets/comparison-previews-lite/row-07-worldstate.mp4",
-          "poster": "assets/videos/comparisons-20260922/seaside-c-worldstate.jpg"
-        }
-      }
-    },
-    {
-      "id": "waterfall-f",
-      "title": "Waterfall · 35s",
-      "videos": {
-        "gen3c": {
-          "src": "assets/comparison-previews-lite/row-08-gen3c.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/waterfall-f-gen3c.jpg"
-        },
-        "spatia": {
-          "src": "assets/comparison-previews-lite/row-08-spatia.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/waterfall-f-spatia.jpg"
-        },
-        "ifw": {
-          "src": "",
-          "poster": ""
-        },
-        "mxg3": {
-          "src": "assets/comparison-previews-lite/row-08-mxg3.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/waterfall-f-mxg3.jpg"
-        },
-        "sanawm": {
-          "src": "assets/comparison-previews-lite/row-08-sanawm.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/waterfall-f-sanawm.jpg"
-        },
-        "worldstate": {
-          "src": "assets/comparison-previews-lite/row-08-worldstate.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/waterfall-f-worldstate.jpg"
-        }
-      }
-    },
-    {
-      "id": "autumn-stream-j",
-      "title": "Autumn Stream · 33s",
-      "videos": {
-        "gen3c": {
-          "src": "assets/comparison-previews-lite/row-09-gen3c.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/autumn-stream-j-gen3c.jpg"
-        },
-        "spatia": {
-          "src": "assets/comparison-previews-lite/row-09-spatia.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/autumn-stream-j-spatia.jpg"
-        },
-        "ifw": {
-          "src": "",
-          "poster": ""
-        },
-        "mxg3": {
-          "src": "assets/comparison-previews-lite/row-09-mxg3.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/autumn-stream-j-mxg3.jpg"
-        },
-        "sanawm": {
-          "src": "assets/comparison-previews-lite/row-09-sanawm.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/autumn-stream-j-sanawm.jpg"
-        },
-        "worldstate": {
-          "src": "assets/comparison-previews-lite/row-09-worldstate.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/autumn-stream-j-worldstate.jpg"
-        }
-      }
-    },
-    {
-      "id": "seaside-f",
-      "title": "Seaside · 35s",
-      "videos": {
-        "gen3c": {
-          "src": "assets/comparison-previews-lite/row-10-gen3c.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/seaside-f-gen3c.jpg"
-        },
-        "spatia": {
-          "src": "assets/comparison-previews-lite/row-10-spatia.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/seaside-f-spatia.jpg"
-        },
-        "ifw": {
-          "src": "",
-          "poster": ""
-        },
-        "mxg3": {
-          "src": "assets/comparison-previews-lite/row-10-mxg3.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/seaside-f-mxg3.jpg"
-        },
-        "sanawm": {
-          "src": "assets/comparison-previews-lite/row-10-sanawm.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/seaside-f-sanawm.jpg"
-        },
-        "worldstate": {
-          "src": "assets/comparison-previews-lite/row-10-worldstate.mp4",
-          "poster": "assets/videos/comparisons-20260922-batch2/seaside-f-worldstate.jpg"
-        }
-      }
+      },
+      "group": "Static-Scene Exploration",
+      "duration": 14.96875
     },
     {
       "id": "indoor_05-b",
       "title": "Indoor 05 · 30s",
+      "prompt": "",
       "videos": {
+        "firstvisit": {
+          "image": "assets/first-visit/indoor_05-b.png"
+        },
         "gen3c": {
-          "src": "assets/comparison-previews-lite/row-11-gen3c.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/indoor_05-b-gen3c.jpg"
+          "src": "assets/comparison-previews-trim2/row-11-gen3c.mp4",
+          "poster": "assets/comparison-previews-trim2/row-11-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-lite/row-11-spatia.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/indoor_05-b-spatia.jpg"
-        },
-        "ifw": {
-          "src": "",
-          "poster": ""
+          "src": "assets/comparison-previews-trim2/row-11-spatia.mp4",
+          "poster": "assets/comparison-previews-trim2/row-11-spatia.jpg"
         },
         "mxg3": {
-          "src": "assets/comparison-previews-lite/row-11-mxg3.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/indoor_05-b-mxg3.jpg"
+          "src": "assets/comparison-previews-trim2/row-11-mxg3.mp4",
+          "poster": "assets/comparison-previews-trim2/row-11-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-lite/row-11-sanawm.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/indoor_05-b-sanawm.jpg"
+          "src": "assets/comparison-previews-trim2/row-11-model-04.mp4",
+          "poster": "assets/comparison-previews-trim2/row-11-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-lite/row-11-worldstate.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/indoor_05-b-worldstate.jpg"
+          "src": "assets/comparison-previews-trim2/row-11-worldstate.mp4",
+          "poster": "assets/comparison-previews-trim2/row-11-worldstate.jpg"
         }
-      }
+      },
+      "group": "Static-Scene Exploration",
+      "duration": 29.9375
     },
     {
       "id": "outdoor_16-b",
       "title": "Outdoor 16 · 30s",
+      "prompt": "",
       "videos": {
+        "firstvisit": {
+          "image": "assets/first-visit/outdoor_16-b.png"
+        },
         "gen3c": {
-          "src": "assets/comparison-previews-lite/row-12-gen3c.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_16-b-gen3c.jpg"
+          "src": "assets/comparison-previews-trim2/row-12-gen3c.mp4",
+          "poster": "assets/comparison-previews-trim2/row-12-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-lite/row-12-spatia.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_16-b-spatia.jpg"
-        },
-        "ifw": {
-          "src": "",
-          "poster": ""
+          "src": "assets/comparison-previews-trim2/row-12-spatia.mp4",
+          "poster": "assets/comparison-previews-trim2/row-12-spatia.jpg"
         },
         "mxg3": {
-          "src": "assets/comparison-previews-lite/row-12-mxg3.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_16-b-mxg3.jpg"
+          "src": "assets/comparison-previews-trim2/row-12-mxg3.mp4",
+          "poster": "assets/comparison-previews-trim2/row-12-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-lite/row-12-sanawm.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_16-b-sanawm.jpg"
+          "src": "assets/comparison-previews-trim2/row-12-model-04.mp4",
+          "poster": "assets/comparison-previews-trim2/row-12-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-lite/row-12-worldstate.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_16-b-worldstate.jpg"
+          "src": "assets/comparison-previews-trim2/row-12-worldstate.mp4",
+          "poster": "assets/comparison-previews-trim2/row-12-worldstate.jpg"
         }
-      }
+      },
+      "group": "Static-Scene Exploration",
+      "duration": 29.9375
     },
     {
       "id": "outdoor_12-g",
       "title": "Outdoor 12 · 30s",
+      "prompt": "",
       "videos": {
+        "firstvisit": {
+          "image": "assets/first-visit/outdoor_12-g.png"
+        },
         "gen3c": {
-          "src": "assets/comparison-previews-lite/row-13-gen3c.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_12-g-gen3c.jpg"
+          "src": "assets/comparison-previews-trim2/row-13-gen3c.mp4",
+          "poster": "assets/comparison-previews-trim2/row-13-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-lite/row-13-spatia.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_12-g-spatia.jpg"
+          "src": "assets/comparison-previews-trim2/row-13-spatia.mp4",
+          "poster": "assets/comparison-previews-trim2/row-13-spatia.jpg"
         },
-        "ifw": {},
         "mxg3": {
-          "src": "assets/comparison-previews-lite/row-13-mxg3.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_12-g-mxg3.jpg"
+          "src": "assets/comparison-previews-trim2/row-13-mxg3.mp4",
+          "poster": "assets/comparison-previews-trim2/row-13-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-lite/row-13-sanawm.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_12-g-sanawm.jpg"
+          "src": "assets/comparison-previews-trim2/row-13-model-04.mp4",
+          "poster": "assets/comparison-previews-trim2/row-13-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-lite/row-13-worldstate.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_12-g-worldstate.jpg"
+          "src": "assets/comparison-previews-trim2/row-13-worldstate.mp4",
+          "poster": "assets/comparison-previews-trim2/row-13-worldstate.jpg"
         }
-      }
+      },
+      "group": "Static-Scene Exploration",
+      "duration": 29.9375
     },
     {
       "id": "outdoor_11-h",
       "title": "Outdoor 11 · 29s",
+      "prompt": "",
       "videos": {
+        "firstvisit": {
+          "image": "assets/first-visit/outdoor_11-h.png"
+        },
         "gen3c": {
-          "src": "assets/comparison-previews-lite/row-14-gen3c.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_11-h-gen3c.jpg"
+          "src": "assets/comparison-previews-trim2/row-14-gen3c.mp4",
+          "poster": "assets/comparison-previews-trim2/row-14-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-lite/row-14-spatia.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_11-h-spatia.jpg"
+          "src": "assets/comparison-previews-trim2/row-14-spatia.mp4",
+          "poster": "assets/comparison-previews-trim2/row-14-spatia.jpg"
         },
-        "ifw": {},
         "mxg3": {
-          "src": "assets/comparison-previews-lite/row-14-mxg3.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_11-h-mxg3.jpg"
+          "src": "assets/comparison-previews-trim2/row-14-mxg3.mp4",
+          "poster": "assets/comparison-previews-trim2/row-14-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-lite/row-14-sanawm.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_11-h-sanawm.jpg"
+          "src": "assets/comparison-previews-trim2/row-14-model-04.mp4",
+          "poster": "assets/comparison-previews-trim2/row-14-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-lite/row-14-worldstate.mp4",
-          "poster": "assets/videos/comparisons-20260922-re10k/outdoor_11-h-worldstate.jpg"
+          "src": "assets/comparison-previews-trim2/row-14-worldstate.mp4",
+          "poster": "assets/comparison-previews-trim2/row-14-worldstate.jpg"
         }
-      }
+      },
+      "group": "Static-Scene Exploration",
+      "duration": 28.937012
+    },
+    {
+      "id": "indoor_14-j",
+      "title": "Indoor 14",
+      "prompt": "",
+      "videos": {
+        "firstvisit": {
+          "image": "assets/first-visit/indoor_14-j.png"
+        },
+        "gen3c": {
+          "src": "assets/comparison-previews-trim2/row-04-gen3c.mp4",
+          "poster": "assets/comparison-previews-trim2/row-04-gen3c.jpg"
+        },
+        "spatia": {
+          "src": "assets/comparison-previews-trim2/row-04-spatia.mp4",
+          "poster": "assets/comparison-previews-trim2/row-04-spatia.jpg"
+        },
+        "mxg3": {
+          "src": "assets/comparison-previews-trim2/row-04-mxg3.mp4",
+          "poster": "assets/comparison-previews-trim2/row-04-mxg3.jpg"
+        },
+        "sanawm": {
+          "src": "assets/comparison-previews-trim2/row-04-model-04.mp4",
+          "poster": "assets/comparison-previews-trim2/row-04-model-04.jpg"
+        },
+        "worldstate": {
+          "src": "assets/comparison-previews-trim2/row-04-worldstate.mp4",
+          "poster": "assets/comparison-previews-trim2/row-04-worldstate.jpg"
+        }
+      },
+      "group": "Dynamic-Scene Exploration",
+      "duration": 32.937012
+    },
+    {
+      "id": "glacial-lake-j",
+      "title": "Glacial Lake · 33s",
+      "prompt": "A sculptural blue iceberg with a natural arch in a turquoise glacial lake, smaller floating ice, rugged snowy mountains and delicate water ripples in cold daylight. Move steadily forward for sixteen seconds while gently looking to either side by about twenty-two degrees, following the supplied camera path. Hold both position and viewing direction completely still for one second. Retrace the exact path backward over sixteen seconds, reversing the earlier viewing directions to return to the original position and orientation. Smooth continuous motion, stable horizon, no cuts, coherent scene geometry.",
+      "videos": {
+        "firstvisit": {
+          "image": "assets/first-visit/glacial-lake-j.png"
+        },
+        "gen3c": {
+          "src": "assets/comparison-previews-trim2/row-05-gen3c.mp4",
+          "poster": "assets/comparison-previews-trim2/row-05-gen3c.jpg"
+        },
+        "spatia": {
+          "src": "assets/comparison-previews-trim2/row-05-spatia.mp4",
+          "poster": "assets/comparison-previews-trim2/row-05-spatia.jpg"
+        },
+        "mxg3": {
+          "src": "assets/comparison-previews-trim2/row-05-mxg3.mp4",
+          "poster": "assets/comparison-previews-trim2/row-05-mxg3.jpg"
+        },
+        "sanawm": {
+          "src": "assets/comparison-previews-trim2/row-05-model-04.mp4",
+          "poster": "assets/comparison-previews-trim2/row-05-model-04.jpg"
+        },
+        "worldstate": {
+          "src": "assets/comparison-previews-trim2/row-05-worldstate.mp4",
+          "poster": "assets/comparison-previews-trim2/row-05-worldstate.jpg"
+        }
+      },
+      "group": "Dynamic-Scene Exploration",
+      "duration": 32.937012
+    },
+    {
+      "id": "canyon-stream-k",
+      "title": "Canyon · 35s",
+      "prompt": "A rushing clear stream through a narrow orange sandstone canyon, a large natural boulder lodged between the rock walls, swirling water and reflected warm sunlight. Move diagonally forward-left while gradually looking fifty degrees left of the initial forward direction. Hold both position and orientation still for one second. Then travel diagonally forward-right across the scene while smoothly sweeping the view from fifty degrees left to fifty degrees right, passing the forward orientation without stopping. Hold both position and orientation for one second. Finally move backward along a direct path to the starting position while returning to the original forward orientation. Clear translational parallax, level horizon, no repeated scanning, no cuts, coherent scene geometry.",
+      "videos": {
+        "firstvisit": {
+          "image": "assets/first-visit/canyon-stream-k.png"
+        },
+        "gen3c": {
+          "src": "assets/comparison-previews-trim2/row-06-gen3c.mp4",
+          "poster": "assets/comparison-previews-trim2/row-06-gen3c.jpg"
+        },
+        "spatia": {
+          "src": "assets/comparison-previews-trim2/row-06-spatia.mp4",
+          "poster": "assets/comparison-previews-trim2/row-06-spatia.jpg"
+        },
+        "mxg3": {
+          "src": "assets/comparison-previews-trim2/row-06-mxg3.mp4",
+          "poster": "assets/comparison-previews-trim2/row-06-mxg3.jpg"
+        },
+        "sanawm": {
+          "src": "assets/comparison-previews-trim2/row-06-model-04.mp4",
+          "poster": "assets/comparison-previews-trim2/row-06-model-04.jpg"
+        },
+        "worldstate": {
+          "src": "assets/comparison-previews-trim2/row-06-worldstate.mp4",
+          "poster": "assets/comparison-previews-trim2/row-06-worldstate.jpg"
+        }
+      },
+      "group": "Dynamic-Scene Exploration",
+      "duration": 34.937012
+    },
+    {
+      "id": "seaside-c",
+      "title": "Seaside · 29s",
+      "prompt": "A sandy coastline curving beneath rocky headlands, blue-green breaking waves, scattered wet shore rocks, coastal grasses and warm afternoon sunlight. Move backward, then advance past the starting point. Glance left thirty degrees during retreat and right thirty degrees near the forward destination. Hold completely still for one second, then return to the starting position and viewing direction. Keep a level horizon, smooth starts and stops, stable scene geometry, and one continuous shot.",
+      "videos": {
+        "firstvisit": {
+          "image": "assets/first-visit/seaside-c.png"
+        },
+        "gen3c": {
+          "src": "assets/comparison-previews-trim2/row-07-gen3c.mp4",
+          "poster": "assets/comparison-previews-trim2/row-07-gen3c.jpg"
+        },
+        "spatia": {
+          "src": "assets/comparison-previews-trim2/row-07-spatia.mp4",
+          "poster": "assets/comparison-previews-trim2/row-07-spatia.jpg"
+        },
+        "mxg3": {
+          "src": "assets/comparison-previews-trim2/row-07-mxg3.mp4",
+          "poster": "assets/comparison-previews-trim2/row-07-mxg3.jpg"
+        },
+        "sanawm": {
+          "src": "assets/comparison-previews-trim2/row-07-model-04.mp4",
+          "poster": "assets/comparison-previews-trim2/row-07-model-04.jpg"
+        },
+        "worldstate": {
+          "src": "assets/comparison-previews-trim2/row-07-worldstate.mp4",
+          "poster": "assets/comparison-previews-trim2/row-07-worldstate.jpg"
+        }
+      },
+      "group": "Dynamic-Scene Exploration",
+      "duration": 28.9375
+    },
+    {
+      "id": "waterfall-f",
+      "title": "Waterfall · 35s",
+      "prompt": "",
+      "videos": {
+        "firstvisit": {
+          "image": "assets/first-visit/waterfall-f.png"
+        },
+        "gen3c": {
+          "src": "assets/comparison-previews-trim2/row-08-gen3c.mp4",
+          "poster": "assets/comparison-previews-trim2/row-08-gen3c.jpg"
+        },
+        "spatia": {
+          "src": "assets/comparison-previews-trim2/row-08-spatia.mp4",
+          "poster": "assets/comparison-previews-trim2/row-08-spatia.jpg"
+        },
+        "mxg3": {
+          "src": "assets/comparison-previews-trim2/row-08-mxg3.mp4",
+          "poster": "assets/comparison-previews-trim2/row-08-mxg3.jpg"
+        },
+        "sanawm": {
+          "src": "assets/comparison-previews-trim2/row-08-model-04.mp4",
+          "poster": "assets/comparison-previews-trim2/row-08-model-04.jpg"
+        },
+        "worldstate": {
+          "src": "assets/comparison-previews-trim2/row-08-worldstate.mp4",
+          "poster": "assets/comparison-previews-trim2/row-08-worldstate.jpg"
+        }
+      },
+      "group": "Dynamic-Scene Exploration",
+      "duration": 34.9375
+    },
+    {
+      "id": "autumn-stream-j",
+      "title": "Autumn Stream · 33s",
+      "prompt": "",
+      "videos": {
+        "firstvisit": {
+          "image": "assets/first-visit/autumn-stream-j.png"
+        },
+        "gen3c": {
+          "src": "assets/comparison-previews-trim2/row-09-gen3c.mp4",
+          "poster": "assets/comparison-previews-trim2/row-09-gen3c.jpg"
+        },
+        "spatia": {
+          "src": "assets/comparison-previews-trim2/row-09-spatia.mp4",
+          "poster": "assets/comparison-previews-trim2/row-09-spatia.jpg"
+        },
+        "mxg3": {
+          "src": "assets/comparison-previews-trim2/row-09-mxg3.mp4",
+          "poster": "assets/comparison-previews-trim2/row-09-mxg3.jpg"
+        },
+        "sanawm": {
+          "src": "assets/comparison-previews-trim2/row-09-model-04.mp4",
+          "poster": "assets/comparison-previews-trim2/row-09-model-04.jpg"
+        },
+        "worldstate": {
+          "src": "assets/comparison-previews-trim2/row-09-worldstate.mp4",
+          "poster": "assets/comparison-previews-trim2/row-09-worldstate.jpg"
+        }
+      },
+      "group": "Dynamic-Scene Exploration",
+      "duration": 32.937012
+    },
+    {
+      "id": "seaside-f",
+      "title": "Seaside · 35s",
+      "prompt": "",
+      "videos": {
+        "firstvisit": {
+          "image": "assets/first-visit/seaside-f.png"
+        },
+        "gen3c": {
+          "src": "assets/comparison-previews-trim2/row-10-gen3c.mp4",
+          "poster": "assets/comparison-previews-trim2/row-10-gen3c.jpg"
+        },
+        "spatia": {
+          "src": "assets/comparison-previews-trim2/row-10-spatia.mp4",
+          "poster": "assets/comparison-previews-trim2/row-10-spatia.jpg"
+        },
+        "mxg3": {
+          "src": "assets/comparison-previews-trim2/row-10-mxg3.mp4",
+          "poster": "assets/comparison-previews-trim2/row-10-mxg3.jpg"
+        },
+        "sanawm": {
+          "src": "assets/comparison-previews-trim2/row-10-model-04.mp4",
+          "poster": "assets/comparison-previews-trim2/row-10-model-04.jpg"
+        },
+        "worldstate": {
+          "src": "assets/comparison-previews-trim2/row-10-worldstate.mp4",
+          "poster": "assets/comparison-previews-trim2/row-10-worldstate.jpg"
+        }
+      },
+      "group": "Dynamic-Scene Exploration",
+      "duration": 34.9375
     }
   ],
   "shortVideos": [
     {
-      "id": "short-01",
-      "title": "Short video 01",
+      "id": "sea-arch-h",
+      "title": "Sea Arch",
+      "src": "assets/presentation-v1/clip-011.mp4",
+      "poster": "assets/presentation-v1/clip-011.jpg",
+      "prompt": ""
+    },
+    {
+      "id": "volcanic-coast-c",
+      "title": "Volcanic Coast",
+      "src": "assets/presentation-v1/clip-012.mp4",
+      "poster": "assets/presentation-v1/clip-012.jpg",
+      "prompt": ""
+    },
+    {
+      "id": "autumn-stream-b",
+      "title": "Autumn Stream",
+      "src": "assets/presentation-v1/clip-013.mp4",
+      "poster": "assets/presentation-v1/clip-013.jpg",
+      "prompt": ""
+    },
+    {
+      "id": "outdoor17-e",
+      "title": "Outdoor 17",
+      "src": "assets/presentation-v1/clip-014.mp4",
+      "poster": "assets/presentation-v1/clip-014.jpg",
+      "prompt": ""
+    },
+    {
+      "id": "indoor20-b",
+      "title": "Indoor 20",
+      "src": "assets/presentation-v1/clip-015.mp4",
+      "poster": "assets/presentation-v1/clip-015.jpg",
+      "prompt": ""
+    },
+    {
+      "id": "indoor18-b",
+      "title": "Indoor 18",
+      "src": "assets/presentation-v1/clip-016.mp4",
+      "poster": "assets/presentation-v1/clip-016.jpg",
+      "prompt": ""
+    },
+    {
+      "id": "zebras",
+      "title": "Zebras",
+      "src": "assets/presentation-v1/clip-017.mp4",
+      "poster": "assets/presentation-v1/clip-017.jpg",
+      "prompt": ""
+    },
+    {
+      "id": "deer",
+      "title": "Deer",
+      "src": "assets/presentation-v1/clip-018.mp4",
+      "poster": "assets/presentation-v1/clip-018.jpg",
+      "prompt": ""
+    },
+    {
+      "id": "outdoor04-g",
+      "title": "Outdoor 04 · G",
+      "src": "assets/presentation-v1/clip-019-trim2.mp4",
+      "poster": "assets/presentation-v1/clip-019-trim2.jpg",
+      "prompt": ""
+    },
+    {
+      "id": "outdoor18-j",
+      "title": "Outdoor 18 · J",
+      "src": "assets/presentation-v1/clip-020-trim2.mp4",
+      "poster": "assets/presentation-v1/clip-020-trim2.jpg",
+      "prompt": ""
+    },
+    {
+      "id": "indoor11-c",
+      "title": "Indoor 11 · C",
+      "src": "assets/presentation-v1/clip-021-trim2.mp4",
+      "poster": "assets/presentation-v1/clip-021-trim2.jpg",
+      "prompt": ""
+    },
+    {
+      "id": "generation-slot-12",
+      "title": "World generation placeholder",
       "src": "",
       "poster": "",
       "prompt": ""
     },
     {
-      "id": "short-02",
-      "title": "Short video 02",
+      "id": "generation-slot-13",
+      "title": "World generation placeholder",
       "src": "",
       "poster": "",
       "prompt": ""
     },
     {
-      "id": "short-03",
-      "title": "Short video 03",
+      "id": "generation-slot-14",
+      "title": "World generation placeholder",
       "src": "",
       "poster": "",
       "prompt": ""
     },
     {
-      "id": "short-04",
-      "title": "Short video 04",
+      "id": "generation-slot-15",
+      "title": "World generation placeholder",
+      "src": "",
+      "poster": "",
+      "prompt": ""
+    },
+    {
+      "id": "generation-slot-16",
+      "title": "World generation placeholder",
+      "src": "",
+      "poster": "",
+      "prompt": ""
+    },
+    {
+      "id": "generation-slot-17",
+      "title": "World generation placeholder",
+      "src": "",
+      "poster": "",
+      "prompt": ""
+    },
+    {
+      "id": "generation-slot-18",
+      "title": "World generation placeholder",
+      "src": "",
+      "poster": "",
+      "prompt": ""
+    },
+    {
+      "id": "generation-slot-19",
+      "title": "World generation placeholder",
+      "src": "",
+      "poster": "",
+      "prompt": ""
+    },
+    {
+      "id": "generation-slot-20",
+      "title": "World generation placeholder",
       "src": "",
       "poster": "",
       "prompt": ""
     }
   ],
-  "longVideos": [
-    {
-      "id": "long-01",
-      "title": "Long video 01",
-      "src": "",
-      "poster": "",
-      "prompt": ""
-    },
-    {
-      "id": "long-02",
-      "title": "Long video 02",
-      "src": "",
-      "poster": "",
-      "prompt": ""
-    }
-  ],
+  "longVideos": [],
   "architecture": {
-    "src": "assets/framework-with-scene-memory.png?v=3bd2a5eb3629",
+    "src": "assets/framework-with-scene-memory.png?v=dfe431c0c09d",
     "width": 3600,
     "height": 1460,
     "title": "Overview of WorldState architecture.",
@@ -593,13 +732,5 @@ window.WORLDSTATE = {
       "prompt": "A first-person view from a cracked concrete rooftop overlooks a futuristic city skyline shrouded in low-lying mist under a gradient twilight sky. The foreground features a weathered, gray surface with visible fissures and a metal railing running horizontally across the frame. In the distance, illuminated skyscrapers pierce through the haze, displaying neon accents in purple and green, while one building glows warmly from internal lighting. A small aircraft hovers silently against the dusky horizon, adding subtle motion to the otherwise still urban panorama. The atmosphere is calm and atmospheric, with soft ambient light casting gentle shadows across the scene."
     }
   ],
-  "refinerComparisons": [
-    {
-      "id": "outdoor-nature-001",
-      "title": "Canyon",
-      "scene": "Outdoor nature · 001",
-      "src": "assets/videos/refiner-comparison.mp4",
-      "poster": "assets/outdoor_nature_001_refiner_no_text_poster.jpg"
-    }
-  ]
+  "refinerComparisons": []
 };
