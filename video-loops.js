@@ -29,19 +29,24 @@ window.WorldStateVideoLoops = {
       const enabled = active(group);
       const loaded = group.videos.filter(video => video.preloadItem?.state === 'ready').length;
       const complete = loaded === group.videos.length;
-      const failed = group.videos.some(video => video.preloadItem?.state === 'error' || (enabled && video.error));
+      const unavailable = group.videos.find(video => video.preloadItem?.state === 'unavailable');
       const loading = group.videos.some(video => video.preloadItem?.state === 'loading');
+      const reconnecting = group.videos.some(video => video.preloadItem?.state === 'queued' && video.preloadItem?.attempts > 0);
+      const bytes = group.videos.reduce((sum, video) => sum + (video.preloadItem?.downloaded || 0), 0);
+      const progress = `${loaded}/${group.videos.length}${bytes ? ` · ${(bytes / 1048576).toFixed(1)} MB` : ''}`;
       const playing = enabled && group.playing && group.videos.every(video => !video.paused && !video.seeking && video.readyState >= 3);
-      const label = failed ? 'Load failed · Retry' : group.finished ? 'Finished · Replay' : !complete ? `${loading || enabled ? 'Loading' : 'Queued'} ${loaded}/${group.videos.length}` : !enabled ? 'Ready · Play' : group.blocked ? 'Click to play' : playing ? 'Playing' : 'Buffering…';
-      const icon = failed ? '!' : group.finished ? '↻' : playing ? '●' : !complete ? '◌' : !enabled ? '✓' : group.blocked ? '▶' : '◌';
+      const label = unavailable ? (unavailable.preloadItem.mediaRecoveries > 1 ? 'Playback unavailable' : 'Video unavailable') : group.finished ? 'Finished · Replay' : !complete ? navigator.onLine === false ? `Waiting for connection · ${progress}` : `${loading || enabled || reconnecting ? 'Loading' : 'Queued'} ${progress}${reconnecting ? ' · Reconnecting…' : ''}` : !enabled ? 'Ready · Play' : group.blocked ? 'Click to play' : playing ? 'Playing' : 'Buffering…';
+      const icon = unavailable ? '!' : group.finished ? '↻' : playing ? '●' : !complete ? '◌' : !enabled ? '✓' : group.blocked ? '▶' : '◌';
+      const details = group.videos.filter(video => video.preloadItem?.error).map(video => `${video.getAttribute('aria-label')}: ${video.preloadItem.error}`);
+      group.button.title = details.join('\n');
       if (group.label.textContent !== label) group.label.textContent = label;
       if (group.icon.textContent !== icon) group.icon.textContent = icon;
       group.button.setAttribute('aria-pressed', String(enabled));
       group.row.classList.toggle('is-active', enabled);
       group.row.classList.toggle('is-playing', playing);
-      group.row.classList.toggle('is-ready', complete && !failed);
+      group.row.classList.toggle('is-ready', complete && !unavailable);
       group.row.classList.toggle('is-finished', group.finished);
-      group.row.dataset.loadState = failed ? 'error' : complete ? 'ready' : loading ? 'loading' : 'queued';
+      group.row.dataset.loadState = unavailable ? 'unavailable' : complete ? 'ready' : loading || reconnecting ? 'loading' : 'queued';
     };
     const stop = group => {
       group.epoch++;
@@ -154,6 +159,11 @@ window.WorldStateVideoLoops = {
       }
     };
     groups.forEach(group => group.videos.forEach(video => {
+      video.addEventListener('error', () => {
+        if (!video.error || !video.hasAttribute('src') || !video.preloadItem) return;
+        stop(group);
+        loader.recoverMedia(video);
+      });
       video.addEventListener('ended', () => finish(group));
       video.addEventListener('waiting', () => {
         if (group.playing || group.starting) {
@@ -276,8 +286,8 @@ window.WorldStateVideoLoops = {
     loader = new window.WorldStatePreload(videos, () => {
       const items = [...loader.items.values()];
       const ready = items.filter(item => item.state === 'ready').length;
-      const failed = items.filter(item => item.state === 'error').length;
-      progress.textContent = `${ready} / ${items.length} videos ready${failed ? ` · ${failed} need retry` : ''} · Select up to two rows to play`;
+      const unavailable = items.filter(item => item.state === 'unavailable').length;
+      progress.textContent = `${ready} / ${items.length} videos ready${unavailable ? ` · ${unavailable} unavailable` : ''} · Select up to two rows to play`;
       groups.forEach(status);
       selected.forEach(tick);
     });
