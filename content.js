@@ -71,23 +71,23 @@ window.WORLDSTATE = {
           "image": "assets/first-visit/outdoor_09-a.png"
         },
         "gen3c": {
-          "src": "assets/comparison-previews-lite/row-01-gen3c.mp4",
+          "src": "assets/previews-v2/row-01-gen3c.mp4",
           "poster": "assets/videos/comparisons-20260922-top/outdoor_09-a-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-lite/row-01-spatia.mp4",
+          "src": "assets/previews-v2/row-01-spatia.mp4",
           "poster": "assets/videos/comparisons-20260922-top/outdoor_09-a-spatia.jpg"
         },
         "mxg3": {
-          "src": "assets/comparison-previews-lite/row-01-mxg3.mp4",
+          "src": "assets/previews-v2/row-01-mxg3.mp4",
           "poster": "assets/videos/comparisons-20260922-top/outdoor_09-a-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-lite/row-01-model-04.mp4",
+          "src": "assets/previews-v2/row-01-model-04.mp4",
           "poster": "assets/videos/comparisons-20260922-top/outdoor_09-a-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-lite/row-01-worldstate.mp4",
+          "src": "assets/previews-v2/row-01-worldstate.mp4",
           "poster": "assets/videos/comparisons-20260922-top/outdoor_09-a-worldstate.jpg"
         }
       },
@@ -103,23 +103,23 @@ window.WORLDSTATE = {
           "image": "assets/first-visit/indoor_01-c.png"
         },
         "gen3c": {
-          "src": "assets/presentation-v1/clip-001.mp4",
+          "src": "assets/previews-v2/row-02-gen3c.mp4",
           "poster": "assets/presentation-v1/clip-001.jpg"
         },
         "spatia": {
-          "src": "assets/presentation-v1/clip-002.mp4",
+          "src": "assets/previews-v2/row-02-spatia.mp4",
           "poster": "assets/presentation-v1/clip-002.jpg"
         },
         "mxg3": {
-          "src": "assets/presentation-v1/clip-003.mp4",
+          "src": "assets/previews-v2/row-02-mxg3.mp4",
           "poster": "assets/presentation-v1/clip-003.jpg"
         },
         "sanawm": {
-          "src": "assets/presentation-v1/clip-004.mp4",
+          "src": "assets/previews-v2/row-02-model-04.mp4",
           "poster": "assets/presentation-v1/clip-004.jpg"
         },
         "worldstate": {
-          "src": "assets/presentation-v1/clip-005.mp4",
+          "src": "assets/previews-v2/row-02-worldstate.mp4",
           "poster": "assets/presentation-v1/clip-005.jpg"
         }
       },
@@ -135,23 +135,23 @@ window.WORLDSTATE = {
           "image": "assets/first-visit/indoor_02-g.png"
         },
         "gen3c": {
-          "src": "assets/presentation-v1/clip-006.mp4",
+          "src": "assets/previews-v2/row-03-gen3c.mp4",
           "poster": "assets/presentation-v1/clip-006.jpg"
         },
         "spatia": {
-          "src": "assets/presentation-v1/clip-007.mp4",
+          "src": "assets/previews-v2/row-03-spatia.mp4",
           "poster": "assets/presentation-v1/clip-007.jpg"
         },
         "mxg3": {
-          "src": "assets/presentation-v1/clip-008.mp4",
+          "src": "assets/previews-v2/row-03-mxg3.mp4",
           "poster": "assets/presentation-v1/clip-008.jpg"
         },
         "sanawm": {
-          "src": "assets/presentation-v1/clip-009.mp4",
+          "src": "assets/previews-v2/row-03-model-04.mp4",
           "poster": "assets/presentation-v1/clip-009.jpg"
         },
         "worldstate": {
-          "src": "assets/presentation-v1/clip-010.mp4",
+          "src": "assets/previews-v2/row-03-worldstate.mp4",
           "poster": "assets/presentation-v1/clip-010.jpg"
         }
       },
@@ -167,23 +167,23 @@ window.WORLDSTATE = {
           "image": "assets/first-visit/indoor_05-b.png"
         },
         "gen3c": {
-          "src": "assets/comparison-previews-trim2/row-11-gen3c.mp4",
+          "src": "assets/previews-v2/row-04-gen3c.mp4",
           "poster": "assets/comparison-previews-trim2/row-11-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-trim2/row-11-spatia.mp4",
+          "src": "assets/previews-v2/row-04-spatia.mp4",
           "poster": "assets/comparison-previews-trim2/row-11-spatia.jpg"
         },
         "mxg3": {
-          "src": "assets/comparison-previews-trim2/row-11-mxg3.mp4",
+          "src": "assets/previews-v2/row-04-mxg3.mp4",
           "poster": "assets/comparison-previews-trim2/row-11-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-trim2/row-11-model-04.mp4",
+          "src": "assets/previews-v2/row-04-model-04.mp4",
           "poster": "assets/comparison-previews-trim2/row-11-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-trim2/row-11-worldstate.mp4",
+          "src": "assets/previews-v2/row-04-worldstate.mp4",
           "poster": "assets/comparison-previews-trim2/row-11-worldstate.jpg"
         }
       },
@@ -199,23 +199,23 @@ window.WORLDSTATE = {
           "image": "assets/first-visit/outdoor_16-b.png"
         },
         "gen3c": {
-          "src": "assets/comparison-previews-trim2/row-12-gen3c.mp4",
+          "src": "assets/previews-v2/row-05-gen3c.mp4",
           "poster": "assets/comparison-previews-trim2/row-12-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-trim2/row-12-spatia.mp4",
+          "src": "assets/previews-v2/row-05-spatia.mp4",
           "poster": "assets/comparison-previews-trim2/row-12-spatia.jpg"
         },
         "mxg3": {
-          "src": "assets/comparison-previews-trim2/row-12-mxg3.mp4",
+          "src": "assets/previews-v2/row-05-mxg3.mp4",
           "poster": "assets/comparison-previews-trim2/row-12-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-trim2/row-12-model-04.mp4",
+          "src": "assets/previews-v2/row-05-model-04.mp4",
           "poster": "assets/comparison-previews-trim2/row-12-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-trim2/row-12-worldstate.mp4",
+          "src": "assets/previews-v2/row-05-worldstate.mp4",
           "poster": "assets/comparison-previews-trim2/row-12-worldstate.jpg"
         }
       },
@@ -231,23 +231,23 @@ window.WORLDSTATE = {
           "image": "assets/first-visit/outdoor_12-g.png"
         },
         "gen3c": {
-          "src": "assets/comparison-previews-trim2/row-13-gen3c.mp4",
+          "src": "assets/previews-v2/row-06-gen3c.mp4",
           "poster": "assets/comparison-previews-trim2/row-13-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-trim2/row-13-spatia.mp4",
+          "src": "assets/previews-v2/row-06-spatia.mp4",
           "poster": "assets/comparison-previews-trim2/row-13-spatia.jpg"
         },
         "mxg3": {
-          "src": "assets/comparison-previews-trim2/row-13-mxg3.mp4",
+          "src": "assets/previews-v2/row-06-mxg3.mp4",
           "poster": "assets/comparison-previews-trim2/row-13-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-trim2/row-13-model-04.mp4",
+          "src": "assets/previews-v2/row-06-model-04.mp4",
           "poster": "assets/comparison-previews-trim2/row-13-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-trim2/row-13-worldstate.mp4",
+          "src": "assets/previews-v2/row-06-worldstate.mp4",
           "poster": "assets/comparison-previews-trim2/row-13-worldstate.jpg"
         }
       },
@@ -263,23 +263,23 @@ window.WORLDSTATE = {
           "image": "assets/first-visit/outdoor_11-h.png"
         },
         "gen3c": {
-          "src": "assets/comparison-previews-trim2/row-14-gen3c.mp4",
+          "src": "assets/previews-v2/row-07-gen3c.mp4",
           "poster": "assets/comparison-previews-trim2/row-14-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-trim2/row-14-spatia.mp4",
+          "src": "assets/previews-v2/row-07-spatia.mp4",
           "poster": "assets/comparison-previews-trim2/row-14-spatia.jpg"
         },
         "mxg3": {
-          "src": "assets/comparison-previews-trim2/row-14-mxg3.mp4",
+          "src": "assets/previews-v2/row-07-mxg3.mp4",
           "poster": "assets/comparison-previews-trim2/row-14-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-trim2/row-14-model-04.mp4",
+          "src": "assets/previews-v2/row-07-model-04.mp4",
           "poster": "assets/comparison-previews-trim2/row-14-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-trim2/row-14-worldstate.mp4",
+          "src": "assets/previews-v2/row-07-worldstate.mp4",
           "poster": "assets/comparison-previews-trim2/row-14-worldstate.jpg"
         }
       },
@@ -295,27 +295,27 @@ window.WORLDSTATE = {
           "image": "assets/first-visit/indoor_14-j.png"
         },
         "gen3c": {
-          "src": "assets/comparison-previews-trim2/row-04-gen3c.mp4",
+          "src": "assets/previews-v2/row-08-gen3c.mp4",
           "poster": "assets/comparison-previews-trim2/row-04-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-trim2/row-04-spatia.mp4",
+          "src": "assets/previews-v2/row-08-spatia.mp4",
           "poster": "assets/comparison-previews-trim2/row-04-spatia.jpg"
         },
         "mxg3": {
-          "src": "assets/comparison-previews-trim2/row-04-mxg3.mp4",
+          "src": "assets/previews-v2/row-08-mxg3.mp4",
           "poster": "assets/comparison-previews-trim2/row-04-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-trim2/row-04-model-04.mp4",
+          "src": "assets/previews-v2/row-08-model-04.mp4",
           "poster": "assets/comparison-previews-trim2/row-04-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-trim2/row-04-worldstate.mp4",
+          "src": "assets/previews-v2/row-08-worldstate.mp4",
           "poster": "assets/comparison-previews-trim2/row-04-worldstate.jpg"
         }
       },
-      "group": "Dynamic-Scene Exploration",
+      "group": "Static-Scene Exploration",
       "duration": 32.937012
     },
     {
@@ -327,23 +327,23 @@ window.WORLDSTATE = {
           "image": "assets/first-visit/glacial-lake-j.png"
         },
         "gen3c": {
-          "src": "assets/comparison-previews-trim2/row-05-gen3c.mp4",
+          "src": "assets/previews-v2/row-09-gen3c.mp4",
           "poster": "assets/comparison-previews-trim2/row-05-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-trim2/row-05-spatia.mp4",
+          "src": "assets/previews-v2/row-09-spatia.mp4",
           "poster": "assets/comparison-previews-trim2/row-05-spatia.jpg"
         },
         "mxg3": {
-          "src": "assets/comparison-previews-trim2/row-05-mxg3.mp4",
+          "src": "assets/previews-v2/row-09-mxg3.mp4",
           "poster": "assets/comparison-previews-trim2/row-05-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-trim2/row-05-model-04.mp4",
+          "src": "assets/previews-v2/row-09-model-04.mp4",
           "poster": "assets/comparison-previews-trim2/row-05-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-trim2/row-05-worldstate.mp4",
+          "src": "assets/previews-v2/row-09-worldstate.mp4",
           "poster": "assets/comparison-previews-trim2/row-05-worldstate.jpg"
         }
       },
@@ -359,23 +359,23 @@ window.WORLDSTATE = {
           "image": "assets/first-visit/seaside-c.png"
         },
         "gen3c": {
-          "src": "assets/comparison-previews-trim2/row-07-gen3c.mp4",
+          "src": "assets/previews-v2/row-10-gen3c.mp4",
           "poster": "assets/comparison-previews-trim2/row-07-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-trim2/row-07-spatia.mp4",
+          "src": "assets/previews-v2/row-10-spatia.mp4",
           "poster": "assets/comparison-previews-trim2/row-07-spatia.jpg"
         },
         "mxg3": {
-          "src": "assets/comparison-previews-trim2/row-07-mxg3.mp4",
+          "src": "assets/previews-v2/row-10-mxg3.mp4",
           "poster": "assets/comparison-previews-trim2/row-07-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-trim2/row-07-model-04.mp4",
+          "src": "assets/previews-v2/row-10-model-04.mp4",
           "poster": "assets/comparison-previews-trim2/row-07-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-trim2/row-07-worldstate.mp4",
+          "src": "assets/previews-v2/row-10-worldstate.mp4",
           "poster": "assets/comparison-previews-trim2/row-07-worldstate.jpg"
         }
       },
@@ -391,23 +391,23 @@ window.WORLDSTATE = {
           "image": "assets/first-visit/waterfall-f.png"
         },
         "gen3c": {
-          "src": "assets/comparison-previews-trim2/row-08-gen3c.mp4",
+          "src": "assets/previews-v2/row-11-gen3c.mp4",
           "poster": "assets/comparison-previews-trim2/row-08-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-trim2/row-08-spatia.mp4",
+          "src": "assets/previews-v2/row-11-spatia.mp4",
           "poster": "assets/comparison-previews-trim2/row-08-spatia.jpg"
         },
         "mxg3": {
-          "src": "assets/comparison-previews-trim2/row-08-mxg3.mp4",
+          "src": "assets/previews-v2/row-11-mxg3.mp4",
           "poster": "assets/comparison-previews-trim2/row-08-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-trim2/row-08-model-04.mp4",
+          "src": "assets/previews-v2/row-11-model-04.mp4",
           "poster": "assets/comparison-previews-trim2/row-08-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-trim2/row-08-worldstate.mp4",
+          "src": "assets/previews-v2/row-11-worldstate.mp4",
           "poster": "assets/comparison-previews-trim2/row-08-worldstate.jpg"
         }
       },
@@ -423,23 +423,23 @@ window.WORLDSTATE = {
           "image": "assets/first-visit/autumn-stream-j.png"
         },
         "gen3c": {
-          "src": "assets/comparison-previews-trim2/row-09-gen3c.mp4",
+          "src": "assets/previews-v2/row-12-gen3c.mp4",
           "poster": "assets/comparison-previews-trim2/row-09-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-trim2/row-09-spatia.mp4",
+          "src": "assets/previews-v2/row-12-spatia.mp4",
           "poster": "assets/comparison-previews-trim2/row-09-spatia.jpg"
         },
         "mxg3": {
-          "src": "assets/comparison-previews-trim2/row-09-mxg3.mp4",
+          "src": "assets/previews-v2/row-12-mxg3.mp4",
           "poster": "assets/comparison-previews-trim2/row-09-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-trim2/row-09-model-04.mp4",
+          "src": "assets/previews-v2/row-12-model-04.mp4",
           "poster": "assets/comparison-previews-trim2/row-09-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-trim2/row-09-worldstate.mp4",
+          "src": "assets/previews-v2/row-12-worldstate.mp4",
           "poster": "assets/comparison-previews-trim2/row-09-worldstate.jpg"
         }
       },
@@ -455,23 +455,23 @@ window.WORLDSTATE = {
           "image": "assets/first-visit/seaside-f.png"
         },
         "gen3c": {
-          "src": "assets/comparison-previews-trim2/row-10-gen3c.mp4",
+          "src": "assets/previews-v2/row-13-gen3c.mp4",
           "poster": "assets/comparison-previews-trim2/row-10-gen3c.jpg"
         },
         "spatia": {
-          "src": "assets/comparison-previews-trim2/row-10-spatia.mp4",
+          "src": "assets/previews-v2/row-13-spatia.mp4",
           "poster": "assets/comparison-previews-trim2/row-10-spatia.jpg"
         },
         "mxg3": {
-          "src": "assets/comparison-previews-trim2/row-10-mxg3.mp4",
+          "src": "assets/previews-v2/row-13-mxg3.mp4",
           "poster": "assets/comparison-previews-trim2/row-10-mxg3.jpg"
         },
         "sanawm": {
-          "src": "assets/comparison-previews-trim2/row-10-model-04.mp4",
+          "src": "assets/previews-v2/row-13-model-04.mp4",
           "poster": "assets/comparison-previews-trim2/row-10-model-04.jpg"
         },
         "worldstate": {
-          "src": "assets/comparison-previews-trim2/row-10-worldstate.mp4",
+          "src": "assets/previews-v2/row-13-worldstate.mp4",
           "poster": "assets/comparison-previews-trim2/row-10-worldstate.jpg"
         }
       },
@@ -483,84 +483,84 @@ window.WORLDSTATE = {
     {
       "id": "sea-arch-h",
       "title": "Sea Arch",
-      "src": "assets/presentation-v1/clip-011.mp4",
+      "src": "assets/previews-v2/gallery-01.mp4",
       "poster": "assets/presentation-v1/clip-011.jpg",
       "prompt": ""
     },
     {
       "id": "volcanic-coast-c",
       "title": "Volcanic Coast",
-      "src": "assets/presentation-v1/clip-012.mp4",
+      "src": "assets/previews-v2/gallery-02.mp4",
       "poster": "assets/presentation-v1/clip-012.jpg",
       "prompt": ""
     },
     {
       "id": "autumn-stream-b",
       "title": "Autumn Stream",
-      "src": "assets/presentation-v1/clip-013.mp4",
+      "src": "assets/previews-v2/gallery-03.mp4",
       "poster": "assets/presentation-v1/clip-013.jpg",
       "prompt": ""
     },
     {
       "id": "outdoor17-e",
       "title": "Outdoor 17",
-      "src": "assets/presentation-v1/clip-014.mp4",
+      "src": "assets/previews-v2/gallery-04.mp4",
       "poster": "assets/presentation-v1/clip-014.jpg",
       "prompt": ""
     },
     {
       "id": "indoor20-b",
       "title": "Indoor 20",
-      "src": "assets/presentation-v1/clip-015.mp4",
+      "src": "assets/previews-v2/gallery-05.mp4",
       "poster": "assets/presentation-v1/clip-015.jpg",
       "prompt": ""
     },
     {
       "id": "indoor18-b",
       "title": "Indoor 18",
-      "src": "assets/presentation-v1/clip-016.mp4",
+      "src": "assets/previews-v2/gallery-06.mp4",
       "poster": "assets/presentation-v1/clip-016.jpg",
       "prompt": ""
     },
     {
       "id": "zebras",
       "title": "Zebras",
-      "src": "assets/presentation-v1/clip-017.mp4",
+      "src": "assets/previews-v2/gallery-07.mp4",
       "poster": "assets/presentation-v1/clip-017.jpg",
       "prompt": ""
     },
     {
       "id": "deer",
       "title": "Deer",
-      "src": "assets/presentation-v1/clip-018.mp4",
+      "src": "assets/previews-v2/gallery-08.mp4",
       "poster": "assets/presentation-v1/clip-018.jpg",
       "prompt": ""
     },
     {
       "id": "outdoor04-g",
       "title": "Outdoor 04 · G",
-      "src": "assets/presentation-v1/clip-019-trim2.mp4",
+      "src": "assets/previews-v2/gallery-09.mp4",
       "poster": "assets/presentation-v1/clip-019-trim2.jpg",
       "prompt": ""
     },
     {
       "id": "outdoor18-j",
       "title": "Outdoor 18 · J",
-      "src": "assets/presentation-v1/clip-020-trim2.mp4",
+      "src": "assets/previews-v2/gallery-10.mp4",
       "poster": "assets/presentation-v1/clip-020-trim2.jpg",
       "prompt": ""
     },
     {
       "id": "indoor11-c",
       "title": "Indoor 11 · C",
-      "src": "assets/presentation-v1/clip-021-trim2.mp4",
+      "src": "assets/previews-v2/gallery-11.mp4",
       "poster": "assets/presentation-v1/clip-021-trim2.jpg",
       "prompt": ""
     },
     {
       "id": "villa-courtyard-360",
       "title": "Villa Courtyard",
-      "src": "assets/world-generation/villa-courtyard-360.mp4",
+      "src": "assets/previews-v2/gallery-12.mp4",
       "poster": "assets/world-generation/villa-courtyard-360.jpg",
       "prompt": ""
     },
@@ -645,7 +645,7 @@ window.WORLDSTATE = {
       "category": "Exploration",
       "tag": "Jungle ruins · Game style · Hard trajectory",
       "poster": "assets/game_style_008_poster.jpg",
-      "src": "assets/videos/game_style_008_generated.mp4",
+      "src": "assets/previews-v2/long-01.mp4",
       "description": "A first-person view through a rain-drenched jungle ruin.",
       "prompt": "A first-person view of a rain-drenched jungle ruin where moss-covered stone pillars and crumbling masonry frame a muddy path leading toward distant, mist-shrouded hills. The ground is slick with water, reflecting the overcast sky, while thick vines and leafy undergrowth cling to the weathered architecture. Raindrops streak vertically through the air, visible against the dark, wet surfaces of the stone and foliage. In the immediate foreground, the tops of worn leather boots rest on the damp earth, anchoring the perspective. The scene is defined by the textures of decaying stone, vibrant green moss, and the heavy, humid atmosphere of a forgotten, overgrown sanctuary."
     },
@@ -655,7 +655,7 @@ window.WORLDSTATE = {
       "category": "Exploration",
       "tag": "Flooded ruins city · WorldState + refiner",
       "poster": "assets/06_flooded_ruins_city_traj2_poster.jpg",
-      "src": "assets/videos/06_flooded_ruins_city_traj2_generated.mp4",
+      "src": "assets/previews-v2/long-02.mp4",
       "description": "Flooded City.",
       "prompt": "A first-person view of a sunlit, waterlogged canal in a historic European city, with a weathered wooden rowboat moored in the foreground, its hull painted faded blue and lined with a red cushion and a lantern. The canal’s surface reflects the surrounding stone buildings and arched bridges, its water level high enough to submerge the lower levels of the structures. To the left, a stone quay with a wooden post and rope barrier leads to a multi-arched bridge, beneath which a large wooden waterwheel is visible. The middle ground reveals a series of aged, multi-story buildings with peeling stucco, shuttered windows, and hanging laundry, their ground floors partially submerged. On the right, makeshift market stalls with tarpaulin canopies line the canal edge. In the background, a tall clock tower rises above the rooftops under a pale blue sky with scattered clouds, casting soft light across the scene. The scene has a historical atmosphere, with the textures of wet stone, wood, and water creating a sense of damp, historical decay."
     },
@@ -665,7 +665,7 @@ window.WORLDSTATE = {
       "category": "Revisit",
       "tag": "Sunlit bedroom · Hard trajectory",
       "poster": "assets/indoor_013_poster.jpg",
-      "src": "assets/videos/indoor_013_generated.mp4",
+      "src": "assets/previews-v2/long-03.mp4",
       "description": "A first-person exploration of a sunlit bedroom.",
       "prompt": "A first-person view of a sunlit bedroom with a low bed covered in rumpled sage green and beige linens in the foreground. To the left, a wooden nightstand holds a brass alarm clock and a glass of water, sitting beneath a framed landscape print and a small woven wall hanging. A woven rug lies on the hardwood floor near the foot of the bed. Straight ahead, a large double-hung window with sheer white curtains allows bright natural light to flood the room, revealing green trees outside. To the right, a wooden dresser supports a ceramic lamp, a potted plant, and a stack of books. The walls are textured white plaster, and the overall atmosphere is warm, calm, and still."
     },
@@ -675,7 +675,7 @@ window.WORLDSTATE = {
       "category": "Revisit",
       "tag": "Sunlit living room",
       "poster": "assets/indoor_006_poster.jpg",
-      "src": "assets/videos/indoor_006_generated.mp4",
+      "src": "assets/previews-v2/long-04.mp4",
       "description": "A first-person exploration of a sunlit living room.",
       "prompt": "A first-person view of a sunlit living room where an open hardcover book rests on the cushioned arm of a beige armchair in the immediate foreground. To the left, a wooden side table holds a steaming ceramic mug and a lamp with a textured shade, positioned near a large window that floods the space with warm natural light. The floor features polished wood planks partially covered by a soft area rug. In the background, a plush sofa draped with a knit throw sits opposite a built-in white bookshelf filled with various books and decorative items, creating a cozy, stationary domestic atmosphere defined by soft fabrics and warm tones."
     },
@@ -685,7 +685,7 @@ window.WORLDSTATE = {
       "category": "Long horizon",
       "tag": "Urban skyline · Game style · Hard trajectory",
       "poster": "assets/game_style_004_poster.jpg",
-      "src": "assets/videos/game_style_004_generated.mp4",
+      "src": "assets/previews-v2/long-05.mp4",
       "description": "A first-person view over an urban skyline at sunset.",
       "prompt": "A first-person view from a high vantage point overlooking a dense urban skyline at sunset, where rows of mid-rise and high-rise buildings stretch toward a glowing horizon. The foreground features the sharp edge of a rooftop, casting a dark triangular shadow over textured asphalt below. Skyscrapers rise in silhouette against an orange-to-purple gradient sky, their glass and concrete surfaces catching the last warm light. Streets carve linear paths through the grid, flanked by uniformly spaced structures with flat roofs and rectangular windows. No motion is visible; the scene is static, defined by geometric forms, layered depth, and the stillness of twilight settling over the cityscape."
     },
@@ -695,7 +695,7 @@ window.WORLDSTATE = {
       "category": "Long horizon",
       "tag": "Game style · Hard trajectory",
       "poster": "assets/game_style_005_poster.jpg",
-      "src": "assets/videos/game_style_005_generated.mp4",
+      "src": "assets/previews-v2/long-06.mp4",
       "description": "Game-style world exploration along a hard camera trajectory.",
       "prompt": "A first-person view from a cracked concrete rooftop overlooks a futuristic city skyline shrouded in low-lying mist under a gradient twilight sky. The foreground features a weathered, gray surface with visible fissures and a metal railing running horizontally across the frame. In the distance, illuminated skyscrapers pierce through the haze, displaying neon accents in purple and green, while one building glows warmly from internal lighting. A small aircraft hovers silently against the dusky horizon, adding subtle motion to the otherwise still urban panorama. The atmosphere is calm and atmospheric, with soft ambient light casting gentle shadows across the scene."
     }
