@@ -565,52 +565,52 @@ window.WORLDSTATE = {
       "prompt": ""
     },
     {
-      "id": "generation-slot-13",
-      "title": "World generation placeholder",
-      "src": "",
-      "poster": "",
+      "id": "seaside-chapel",
+      "title": "Seaside Chapel",
+      "src": "assets/previews-v2/gallery-13.mp4",
+      "poster": "assets/world-generation/seaside-chapel.jpg",
       "prompt": ""
     },
     {
-      "id": "generation-slot-14",
-      "title": "World generation placeholder",
-      "src": "",
-      "poster": "",
+      "id": "underwater-library-c",
+      "title": "Underwater Library · C",
+      "src": "assets/previews-v2/gallery-14.mp4",
+      "poster": "assets/world-generation/underwater-library-c.jpg",
       "prompt": ""
     },
     {
-      "id": "generation-slot-15",
-      "title": "World generation placeholder",
-      "src": "",
-      "poster": "",
+      "id": "stream-teahouse",
+      "title": "Stream Teahouse",
+      "src": "assets/previews-v2/gallery-15.mp4",
+      "poster": "assets/world-generation/stream-teahouse.jpg",
       "prompt": ""
     },
     {
-      "id": "generation-slot-16",
-      "title": "World generation placeholder",
-      "src": "",
-      "poster": "",
+      "id": "desert-bunker-f",
+      "title": "Desert Bunker · F",
+      "src": "assets/previews-v2/gallery-16.mp4",
+      "poster": "assets/world-generation/desert-bunker-f.jpg",
       "prompt": ""
     },
     {
-      "id": "generation-slot-17",
-      "title": "World generation placeholder",
-      "src": "",
-      "poster": "",
+      "id": "snow-ice-d",
+      "title": "Snow Ice · D",
+      "src": "assets/previews-v2/gallery-17.mp4",
+      "poster": "assets/world-generation/snow-ice-d.jpg",
       "prompt": ""
     },
     {
-      "id": "generation-slot-18",
-      "title": "World generation placeholder",
-      "src": "",
-      "poster": "",
+      "id": "black-sand-coast-e",
+      "title": "Black Sand Coast · E",
+      "src": "assets/previews-v2/gallery-18.mp4",
+      "poster": "assets/world-generation/black-sand-coast-e.jpg",
       "prompt": ""
     },
     {
-      "id": "generation-slot-19",
-      "title": "World generation placeholder",
-      "src": "",
-      "poster": "",
+      "id": "muddy-marsh-f",
+      "title": "Muddy Marsh · F",
+      "src": "assets/previews-v2/gallery-19-f.mp4",
+      "poster": "assets/world-generation/muddy-marsh-f.jpg",
       "prompt": ""
     },
     {
