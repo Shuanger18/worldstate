@@ -7,8 +7,8 @@ window.WORLDSTATE = {
   "authors": "",
   "affiliation": "",
   "featuredVideo": {
-    "src": "",
-    "poster": "",
+    "src": "assets/worldstate-overview.mp4",
+    "poster": "assets/worldstate-overview.jpg",
     "title": "WorldState in motion"
   },
   "abstract": "Interactive video world models generate continuous video streams conditioned on user actions and camera movements. Long-horizon interaction requires these models to preserve previously generated environments and recover historically consistent content during spatial revisits. Explicit memories either require growing storage and retrieval or rely on potentially inaccurate geometric estimates. Recurrent linear memory avoids these costs but suffers from imbalanced frame-wise updates and fixed capacity: spatial normalization weakens erasure relative to writing, while a single state cannot scale with video length, forcing a growing amount of historical information to compete for limited memory capacity. To address these limitations, we propose WorldState, a scalable implicit memory model built upon a hybrid attention backbone. WorldState decouples memory erasing and writing for fine-grained memory editing and uniformly organizes history into a logarithmically growing set of temporally isolated states. Completed historical states remain subject to channel-wise decay but are excluded from subsequent erasure and writing, reducing repeated overwriting while preserving adaptive forgetting. Context-aware memory routing further retrieves relevant historical states according to the current generation context. Extensive experiments demonstrate that WorldState substantially improves long-term memory retention and spatial revisit consistency while preserving the computational efficiency of linear attention, enabling high-fidelity and spatially coherent video generation over extended interaction horizons.",
@@ -614,10 +614,17 @@ window.WORLDSTATE = {
       "prompt": ""
     },
     {
-      "id": "generation-slot-20",
-      "title": "World generation placeholder",
-      "src": "",
-      "poster": "",
+      "id": "desert-poplar-k",
+      "title": "Desert Poplar · K",
+      "src": "assets/previews-v2/gallery-20.mp4",
+      "poster": "assets/world-generation/desert-poplar-k.jpg",
+      "prompt": ""
+    },
+    {
+      "id": "alpine-lake-k",
+      "title": "Alpine Lake · K",
+      "src": "assets/previews-v2/gallery-21.mp4",
+      "poster": "assets/world-generation/alpine-lake-k.jpg",
       "prompt": ""
     }
   ],
@@ -668,26 +675,6 @@ window.WORLDSTATE = {
       "src": "assets/previews-v2/long-03.mp4",
       "description": "A first-person exploration of a sunlit bedroom.",
       "prompt": "A first-person view of a sunlit bedroom with a low bed covered in rumpled sage green and beige linens in the foreground. To the left, a wooden nightstand holds a brass alarm clock and a glass of water, sitting beneath a framed landscape print and a small woven wall hanging. A woven rug lies on the hardwood floor near the foot of the bed. Straight ahead, a large double-hung window with sheer white curtains allows bright natural light to flood the room, revealing green trees outside. To the right, a wooden dresser supports a ceramic lamp, a potted plant, and a stack of books. The walls are textured white plaster, and the overall atmosphere is warm, calm, and still."
-    },
-    {
-      "id": "lighthouse",
-      "title": "Sunlit Living Room",
-      "category": "Revisit",
-      "tag": "Sunlit living room",
-      "poster": "assets/indoor_006_poster.jpg",
-      "src": "assets/previews-v2/long-04.mp4",
-      "description": "A first-person exploration of a sunlit living room.",
-      "prompt": "A first-person view of a sunlit living room where an open hardcover book rests on the cushioned arm of a beige armchair in the immediate foreground. To the left, a wooden side table holds a steaming ceramic mug and a lamp with a textured shade, positioned near a large window that floods the space with warm natural light. The floor features polished wood planks partially covered by a soft area rug. In the background, a plush sofa draped with a knit throw sits opposite a built-in white bookshelf filled with various books and decorative items, creating a cozy, stationary domestic atmosphere defined by soft fabrics and warm tones."
-    },
-    {
-      "id": "oasis",
-      "title": "Sunset Skyline",
-      "category": "Long horizon",
-      "tag": "Urban skyline · Game style · Hard trajectory",
-      "poster": "assets/game_style_004_poster.jpg",
-      "src": "assets/previews-v2/long-05.mp4",
-      "description": "A first-person view over an urban skyline at sunset.",
-      "prompt": "A first-person view from a high vantage point overlooking a dense urban skyline at sunset, where rows of mid-rise and high-rise buildings stretch toward a glowing horizon. The foreground features the sharp edge of a rooftop, casting a dark triangular shadow over textured asphalt below. Skyscrapers rise in silhouette against an orange-to-purple gradient sky, their glass and concrete surfaces catching the last warm light. Streets carve linear paths through the grid, flanked by uniformly spaced structures with flat roofs and rectangular windows. No motion is visible; the scene is static, defined by geometric forms, layered depth, and the stillness of twilight settling over the cityscape."
     },
     {
       "id": "harbor",
