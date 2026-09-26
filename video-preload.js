@@ -2,6 +2,7 @@
 window.WorldStatePreload = class {
   constructor(videos, changed) {
     this.changed = changed;
+    this.direct = window.origin === 'null';
     this.items = new Map();
     this.running = 0;
     this.order = [];
@@ -18,7 +19,7 @@ window.WorldStatePreload = class {
     });
     videos.forEach(video => {
       const url = new URL(video.dataset.src, location.href).href;
-      if (!this.items.has(url)) this.items.set(url, {url, state: 'queued'});
+      if (!this.items.has(url)) this.items.set(url, {url, state: this.direct ? 'ready' : 'queued', direct: this.direct});
       video.preloadItem = this.items.get(url);
     });
     this.order = [...this.items.values()];
@@ -78,7 +79,7 @@ window.WorldStatePreload = class {
     videos.forEach(video => {
       const item = video.preloadItem;
       if (item.state === 'unavailable') {
-        item.state = 'queued';
+        item.state = this.direct ? 'ready' : 'queued';
         item.mediaRecoveries = 0;
       }
       item.retryAt = 0;
@@ -87,6 +88,7 @@ window.WorldStatePreload = class {
   }
   pump() {
     clearTimeout(this.retryTimer);
+    if (this.direct) return;
     if (document.hidden || navigator.onLine === false) return;
     while (this.running < 2) {
       const selectedPending = [...this.priority].some(item => item.state === 'queued' || item.state === 'loading');
@@ -217,6 +219,13 @@ window.WorldStatePreload = class {
   }
   recoverMedia(video) {
     const item = video.preloadItem;
+    if (this.direct) {
+      item.error = video.error?.message || 'Video unavailable';
+      item.state = 'unavailable';
+      this.release(video);
+      this.changed();
+      return;
+    }
     const message = video.error?.message || 'The browser could not decode this video';
     this.release(video);
     item.error = message;
@@ -231,6 +240,13 @@ window.WorldStatePreload = class {
   }
   async attach(video, allowed) {
     if (video.hasAttribute('src') || video.preloadAttaching || video.preloadItem.state !== 'ready') return;
+    if (this.direct) {
+      if (!allowed()) return;
+      video.preload = 'auto';
+      video.src = video.preloadItem.url;
+      video.load();
+      return;
+    }
     video.preloadAttaching = true;
     try {
       const blob = await this.read(video.preloadItem);

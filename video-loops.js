@@ -27,7 +27,7 @@ window.WorldStateVideoLoops = {
     const status = group => {
       if (!group.button) return;
       const enabled = active(group);
-      const loaded = group.videos.filter(video => video.preloadItem?.state === 'ready').length;
+      const loaded = group.videos.filter(video => video.preloadItem?.direct ? video.readyState >= 3 : video.preloadItem?.state === 'ready').length;
       const complete = loaded === group.videos.length;
       const unavailable = group.videos.find(video => video.preloadItem?.state === 'unavailable');
       const loading = group.videos.some(video => video.preloadItem?.state === 'loading');
@@ -35,7 +35,7 @@ window.WorldStateVideoLoops = {
       const bytes = group.videos.reduce((sum, video) => sum + (video.preloadItem?.downloaded || 0), 0);
       const progress = `${loaded}/${group.videos.length}${bytes ? ` · ${(bytes / 1048576).toFixed(1)} MB` : ''}`;
       const playing = enabled && group.playing && group.videos.every(video => !video.paused && !video.seeking && video.readyState >= 3);
-      const label = unavailable ? (unavailable.preloadItem.mediaRecoveries > 1 ? 'Playback unavailable' : 'Video unavailable') : group.finished ? 'Finished · Replay' : !complete ? navigator.onLine === false ? `Waiting for connection · ${progress}` : `${loading || enabled || reconnecting ? 'Loading' : 'Queued'} ${progress}${reconnecting ? ' · Reconnecting…' : ''}` : !enabled ? 'Ready · Play' : group.blocked ? 'Click to play' : playing ? 'Playing' : 'Buffering…';
+      const label = loader?.direct && !unavailable && !group.finished ? (playing ? 'Playing' : enabled ? 'Buffering…' : 'Play this row') : unavailable ? (unavailable.preloadItem.mediaRecoveries > 1 ? 'Playback unavailable' : 'Video unavailable') : group.finished ? 'Finished · Replay' : !complete ? navigator.onLine === false ? `Waiting for connection · ${progress}` : `${loading || enabled || reconnecting ? 'Loading' : 'Queued'} ${progress}${reconnecting ? ' · Reconnecting…' : ''}` : !enabled ? 'Ready · Play' : group.blocked ? 'Click to play' : playing ? 'Playing' : 'Buffering…';
       const icon = unavailable ? '!' : group.finished ? '↻' : playing ? '●' : !complete ? '◌' : !enabled ? '✓' : group.blocked ? '▶' : '◌';
       const details = group.videos.filter(video => video.preloadItem?.error).map(video => `${video.getAttribute('aria-label')}: ${video.preloadItem.error}`);
       group.button.title = details.join('\n');
