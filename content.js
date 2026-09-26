@@ -523,10 +523,10 @@ window.WORLDSTATE = {
       "prompt": ""
     },
     {
-      "id": "zebras",
-      "title": "Zebras",
-      "src": "assets/previews-v2/gallery-07.mp4",
-      "poster": "assets/presentation-v1/clip-017.jpg",
+      "id": "black-sand-coast-e",
+      "title": "Black Sand Coast · E",
+      "src": "assets/previews-v2/gallery-18.mp4",
+      "poster": "assets/world-generation/black-sand-coast-e.jpg",
       "prompt": ""
     },
     {
@@ -544,10 +544,10 @@ window.WORLDSTATE = {
       "prompt": ""
     },
     {
-      "id": "outdoor18-j",
-      "title": "Outdoor 18 · J",
-      "src": "assets/previews-v2/gallery-10.mp4",
-      "poster": "assets/presentation-v1/clip-020-trim2.jpg",
+      "id": "desert-poplar-k",
+      "title": "Desert Poplar · K",
+      "src": "assets/previews-v2/gallery-20.mp4",
+      "poster": "assets/world-generation/desert-poplar-k.jpg",
       "prompt": ""
     },
     {
@@ -600,17 +600,17 @@ window.WORLDSTATE = {
       "prompt": ""
     },
     {
-      "id": "black-sand-coast-e",
-      "title": "Black Sand Coast · E",
-      "src": "assets/previews-v2/gallery-18.mp4",
-      "poster": "assets/world-generation/black-sand-coast-e.jpg",
+      "id": "zebras",
+      "title": "Zebras",
+      "src": "assets/previews-v2/gallery-07.mp4",
+      "poster": "assets/presentation-v1/clip-017.jpg",
       "prompt": ""
     },
     {
-      "id": "desert-poplar-k",
-      "title": "Desert Poplar · K",
-      "src": "assets/previews-v2/gallery-20.mp4",
-      "poster": "assets/world-generation/desert-poplar-k.jpg",
+      "id": "outdoor18-j",
+      "title": "Outdoor 18 · J",
+      "src": "assets/previews-v2/gallery-10.mp4",
+      "poster": "assets/presentation-v1/clip-020-trim2.jpg",
       "prompt": ""
     },
     {
