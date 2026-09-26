@@ -495,10 +495,10 @@ window.WORLDSTATE = {
       "prompt": ""
     },
     {
-      "id": "autumn-stream-b",
-      "title": "Autumn Stream",
-      "src": "assets/previews-v2/gallery-03.mp4",
-      "poster": "assets/presentation-v1/clip-013.jpg",
+      "id": "villa-courtyard-360",
+      "title": "Villa Courtyard",
+      "src": "assets/previews-v2/gallery-12.mp4",
+      "poster": "assets/world-generation/villa-courtyard-360.jpg",
       "prompt": ""
     },
     {
@@ -558,10 +558,10 @@ window.WORLDSTATE = {
       "prompt": ""
     },
     {
-      "id": "villa-courtyard-360",
-      "title": "Villa Courtyard",
-      "src": "assets/previews-v2/gallery-12.mp4",
-      "poster": "assets/world-generation/villa-courtyard-360.jpg",
+      "id": "autumn-stream-b",
+      "title": "Autumn Stream",
+      "src": "assets/previews-v2/gallery-03.mp4",
+      "poster": "assets/presentation-v1/clip-013.jpg",
       "prompt": ""
     },
     {

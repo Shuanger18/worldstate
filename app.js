@@ -28,7 +28,7 @@
     return src ? `<video class="gif-video ${className}" data-src="${esc(src)}"${video.poster?` poster="${esc(safeUrl(video.poster))}"`:''} muted playsinline preload="none" controlslist="nodownload noremoteplayback noplaybackrate" disablepictureinpicture disableremoteplayback draggable="false" tabindex="-1" aria-label="${esc(label)}"></video>` : placeholder(label);
   };
   const feature=data.featuredVideo||{};
-  const cover = `<figure class="featured-showcase featured-film" id="featured-video"><div class="featured-media">${feature.src?`<video src="${esc(safeUrl(feature.src))}" poster="${esc(safeUrl(feature.poster||''))}" controls playsinline preload="none" controlslist="nodownload" aria-label="${esc(feature.title||'WorldState overview video')}"></video>`:placeholder(feature.title||'WorldState in motion',true)}</div></figure>`;
+  const cover = `<figure class="featured-showcase featured-film" id="featured-video"><div class="featured-media">${feature.src?`<video src="${esc(safeUrl(feature.src))}" poster="${esc(safeUrl(feature.poster||''))}" controls playsinline preload="none" controlslist="nodownload" aria-label="${esc(feature.title||'WorldState overview video')}"></video><button type="button" class="featured-play" aria-label="Play WorldState overview video"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M17 10 38 24 17 38Z" fill="currentColor"/></svg></button>`:placeholder(feature.title||'WorldState in motion',true)}</div></figure>`;
 
   const abstract = `<section id="abstract" class="section reveal"><div class="abstract-grid"><div><div class="eyebrow muted">01 — Abstract</div><h2>New horizons.<br>Shared memories.</h2><p class="abstract-kicker">Long-horizon generation with implicit memory.</p></div><div><p class="abstract-copy">${esc(data.abstract).replace(/WorldState/g,'<strong>WorldState</strong>')}</p><div class="principles"><div class="principle"><b>Editable</b><span>Independent erase & write</span></div><div class="principle"><b>Structured</b><span>Uniform temporal buckets</span></div><div class="principle"><b>Retrievable</b><span>Context-aware readout</span></div></div></div></div></section>`;
   const method = window.ImplicitMemory.markup(data);
@@ -42,6 +42,16 @@
   const bibtexText = (data.bibtex || '').trim();
   const citation = `<section id="bibtex" class="section citation-section reveal" aria-labelledby="bibtex-heading"><div class="section-heading"><div><div class="eyebrow">05 — Citation</div><h2 id="bibtex-heading">BibTeX</h2></div><button type="button" class="pill citation-copy" id="copy-bibtex" ${bibtexText?'':'disabled title="Citation coming soon"'}>Copy BibTeX</button></div><div class="citation-panel"><pre tabindex="0" aria-label="BibTeX citation"><code id="bibtex-code">${esc(bibtexText || '% WorldState: Scalable Implicit Memory for Interactive Video World Models\n% The full BibTeX citation will be added here.')}</code></pre></div><span class="citation-status" role="status" aria-live="polite"></span></section>`;
   document.getElementById('app').innerHTML = `<a class="skip" href="#abstract">Skip to content</a><header class="site-nav wrap"><a href="#" class="brand"><span class="brand-mark" aria-hidden="true"></span>${esc(data.name)}</a><nav class="nav-links" aria-label="Sections"><a href="#abstract">Abstract</a><a href="#method">Method</a><a href="#long-horizon-exploration">Explore ↗</a></nav><div class="nav-controls"><div class="nav-end"><span class="status-dot"></span> VIDEO WORLD MODELS</div>${themeToggle}</div></header><main class="wrap">${hero}${cover}${abstract}${method}${comparisons}${shortVideos}${videos}${refinerComparisons}${citation}</main><footer class="footer wrap"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true"></span>${esc(data.name)}</a><span>Interactive worlds, lasting memories.</span><a href="#">Back to top ↑</a></footer><div class="toast" role="status" aria-live="polite"></div><dialog aria-labelledby="dialog-title"><div class="dialog-media"><button class="dialog-close" aria-label="Close preview">×</button><div id="dialog-visual"></div></div><div class="dialog-copy"><div class="eyebrow" id="dialog-status"></div><h3 id="dialog-title"></h3><p id="dialog-description"></p></div></dialog>`;
+  const featuredPlayer = document.querySelector('#featured-video video');
+  const featuredPlay = document.querySelector('#featured-video .featured-play');
+  if (featuredPlayer && featuredPlay) {
+    const updateFeaturedPlay = () => { featuredPlay.hidden = !featuredPlayer.paused && !featuredPlayer.ended; };
+    featuredPlay.addEventListener('click', () => {
+      featuredPlayer.play().catch(() => { featuredPlay.hidden = false; });
+    });
+    ['play', 'pause', 'ended', 'error'].forEach(event => featuredPlayer.addEventListener(event, updateFeaturedPlay));
+    updateFeaturedPlay();
+  }
   document.querySelector('h1').id='page-title';
   window.WorldStateTheme.apply(window.WorldStateTheme.mode);
   document.getElementById('theme-toggle').addEventListener('click', () => {
