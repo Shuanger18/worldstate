@@ -593,10 +593,10 @@ window.WORLDSTATE = {
       "prompt": ""
     },
     {
-      "id": "snow-ice-d",
-      "title": "Snow Ice · D",
-      "src": "assets/previews-v2/gallery-17.mp4",
-      "poster": "assets/world-generation/snow-ice-d.jpg",
+      "id": "stream-teahouse-10",
+      "title": "Stream Teahouse · 10",
+      "src": "assets/previews-v2/stream-teahouse-10.mp4",
+      "poster": "assets/world-generation/stream-teahouse-10.jpg",
       "prompt": ""
     },
     {
