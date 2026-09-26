@@ -200,3 +200,5 @@ body{transition:background-color .55s ease,color .55s ease}
 
 video::-webkit-media-controls-fullscreen-button{display:none!important}
 video::-webkit-media-controls-picture-in-picture-button{display:none!important}
+
+.video-speed-note{margin:18px auto 0;padding:0 16px;color:var(--muted);font-size:14px;line-height:1.6;text-align:center}
