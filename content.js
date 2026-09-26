@@ -560,8 +560,8 @@ window.WORLDSTATE = {
     {
       "id": "autumn-stream-b",
       "title": "Autumn Stream",
-      "src": "assets/previews-v2/gallery-03.mp4",
-      "poster": "assets/presentation-v1/clip-013.jpg",
+      "src": "assets/previews-v2/autumn-stream-v2.mp4",
+      "poster": "assets/world-generation/autumn-stream-v2.jpg",
       "prompt": ""
     },
     {
