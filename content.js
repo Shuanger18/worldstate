@@ -650,26 +650,6 @@ window.WORLDSTATE = {
       "prompt": "A first-person view of a rain-drenched jungle ruin where moss-covered stone pillars and crumbling masonry frame a muddy path leading toward distant, mist-shrouded hills. The ground is slick with water, reflecting the overcast sky, while thick vines and leafy undergrowth cling to the weathered architecture. Raindrops streak vertically through the air, visible against the dark, wet surfaces of the stone and foliage. In the immediate foreground, the tops of worn leather boots rest on the damp earth, anchoring the perspective. The scene is defined by the textures of decaying stone, vibrant green moss, and the heavy, humid atmosphere of a forgotten, overgrown sanctuary."
     },
     {
-      "id": "flooded-ruins",
-      "title": "Flooded City",
-      "category": "Exploration",
-      "tag": "Flooded ruins city · WorldState + refiner",
-      "poster": "assets/06_flooded_ruins_city_traj2_poster.jpg",
-      "src": "assets/previews-v2/long-02.mp4",
-      "description": "Flooded City.",
-      "prompt": "A first-person view of a sunlit, waterlogged canal in a historic European city, with a weathered wooden rowboat moored in the foreground, its hull painted faded blue and lined with a red cushion and a lantern. The canal’s surface reflects the surrounding stone buildings and arched bridges, its water level high enough to submerge the lower levels of the structures. To the left, a stone quay with a wooden post and rope barrier leads to a multi-arched bridge, beneath which a large wooden waterwheel is visible. The middle ground reveals a series of aged, multi-story buildings with peeling stucco, shuttered windows, and hanging laundry, their ground floors partially submerged. On the right, makeshift market stalls with tarpaulin canopies line the canal edge. In the background, a tall clock tower rises above the rooftops under a pale blue sky with scattered clouds, casting soft light across the scene. The scene has a historical atmosphere, with the textures of wet stone, wood, and water creating a sense of damp, historical decay."
-    },
-    {
-      "id": "village",
-      "title": "Sunlit Bedroom",
-      "category": "Revisit",
-      "tag": "Sunlit bedroom · Hard trajectory",
-      "poster": "assets/indoor_013_poster.jpg",
-      "src": "assets/previews-v2/long-03.mp4",
-      "description": "A first-person exploration of a sunlit bedroom.",
-      "prompt": "A first-person view of a sunlit bedroom with a low bed covered in rumpled sage green and beige linens in the foreground. To the left, a wooden nightstand holds a brass alarm clock and a glass of water, sitting beneath a framed landscape print and a small woven wall hanging. A woven rug lies on the hardwood floor near the foot of the bed. Straight ahead, a large double-hung window with sheer white curtains allows bright natural light to flood the room, revealing green trees outside. To the right, a wooden dresser supports a ceramic lamp, a potted plant, and a stack of books. The walls are textured white plaster, and the overall atmosphere is warm, calm, and still."
-    },
-    {
       "id": "harbor",
       "title": "Futuristic City",
       "category": "Long horizon",
