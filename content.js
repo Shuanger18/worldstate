@@ -581,8 +581,8 @@ window.WORLDSTATE = {
     {
       "id": "stream-teahouse",
       "title": "Stream Teahouse",
-      "src": "assets/previews-v2/gallery-15.mp4",
-      "poster": "assets/world-generation/stream-teahouse.jpg",
+      "src": "assets/previews-v2/stream-teahouse-v2.mp4",
+      "poster": "assets/world-generation/stream-teahouse-v2.jpg",
       "prompt": ""
     },
     {
@@ -604,13 +604,6 @@ window.WORLDSTATE = {
       "title": "Black Sand Coast · E",
       "src": "assets/previews-v2/gallery-18.mp4",
       "poster": "assets/world-generation/black-sand-coast-e.jpg",
-      "prompt": ""
-    },
-    {
-      "id": "muddy-marsh-f",
-      "title": "Muddy Marsh · F",
-      "src": "assets/previews-v2/gallery-19-f.mp4",
-      "poster": "assets/world-generation/muddy-marsh-f.jpg",
       "prompt": ""
     },
     {

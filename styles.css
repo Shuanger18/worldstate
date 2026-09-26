@@ -197,3 +197,6 @@ body{transition:background-color .55s ease,color .55s ease}
 .featured-play:hover{background:rgba(0,0,0,.82)}
 .featured-play:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
 .featured-play[hidden]{display:none}
+
+video::-webkit-media-controls-fullscreen-button{display:none!important}
+video::-webkit-media-controls-picture-in-picture-button{display:none!important}
